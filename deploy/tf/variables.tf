@@ -29,7 +29,7 @@ variable "cicd_runner_sa_name" {
 }
 
 variable "repository_name" {
-  description = "Name of the repository you'd like to connect to Cloud Build"
+  description = "Name of the GitHub repository you'd like to connect to Cloud Build"
   type        = string
 }
 

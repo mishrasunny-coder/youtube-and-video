@@ -11,12 +11,7 @@ locals {
     "storage.googleapis.com", 
     "artifactregistry.googleapis.com",
     "iam.googleapis.com",
-    "aiplatform.googleapis.com",
     "run.googleapis.com",
-    "discoveryengine.googleapis.com",
-    "cloudresourcemanager.googleapis.com",
-    "iam.googleapis.com",
-    "serviceusage.googleapis.com",
     "logging.googleapis.com",
     "secretmanager.googleapis.com",
     "iap.googleapis.com"
