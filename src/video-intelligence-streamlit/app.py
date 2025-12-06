@@ -28,7 +28,7 @@ from video_utils import (
 st.set_page_config(page_title="Dazbo's Video Intelligence", page_icon="🎥")    
 
 APP_NAME = "dazbo-vid-intel-streamlit"
-# Use gemini-1.5-flash instead of -002 suffix for broader region support
+# Use the latest gemini-2.5-flash model
 MODEL_NAME = "gemini-2.5-flash"
 MAX_VIDEO_SIZE = 40 # MB
 
