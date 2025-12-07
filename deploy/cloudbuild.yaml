@@ -74,6 +74,7 @@ substitutions:
   _GAR_REPO: video-intelligence
   _LOG_LEVEL: DEBUG
   _MAX_INSTANCES: "1"
+  _CICD_RUNNER_SA_EMAIL: video-intelligence-sa@video-intelligence-479903.iam.gserviceaccount.com
 
 # Tags associated with the build, useful for filtering builds in the Cloud Build history.
 tags:
