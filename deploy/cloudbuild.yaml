@@ -68,7 +68,7 @@ options:
 substitutions:
   _DEPLOY_REGION: us-east1
   _TRIGGER_ID: no-trigger
-  _AR_HOSTNAME: $_CB_REGION-docker.pkg.dev # Artifact Registry hostname
+  _AR_HOSTNAME: us-east1-docker.pkg.dev # Artifact Registry hostname
   _PLATFORM: managed # Cloud Run platform
   _SERVICE_NAME: video-intelligence # Name of the service being deployed
   _GAR_REPO: video-intelligence
