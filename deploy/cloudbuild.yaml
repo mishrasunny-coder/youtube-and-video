@@ -47,6 +47,7 @@ steps:
       - '--region=$_DEPLOY_REGION' # Region where the service is deployed
       - '--no-allow-unauthenticated' # Require authentication (IAP at load balancer handles this)
       - '--max-instances=$_MAX_INSTANCES' # Limit the number of instances to 1
+      - '--min-instances=0' # Scale to zero when not in use (cost optimization)
       - '--set-env-vars=PROJECT_ID=$PROJECT_ID,REGION=$_DEPLOY_REGION,LOG_LEVEL=$_LOG_LEVEL' # Environment variables for the service
       - '--quiet' # Suppress interactive prompts
 

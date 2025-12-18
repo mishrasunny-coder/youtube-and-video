@@ -2,6 +2,20 @@
 
 <img src="docs/static/media/vid-intel-screenshot.png" alt="Video Intelligence Application" width="420" />
 
+## 🚀 Quick Links
+
+**New to this project? Start here:**
+- 📖 **[QUICK_START.md](./QUICK_START.md)** - Get running in 5 minutes!
+- 📚 **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** - Complete deployment documentation
+- ⚙️ **[ENVIRONMENT_VARIABLES.md](./ENVIRONMENT_VARIABLES.md)** - All environment variables reference
+
+**Current Deployment:**
+- 🌐 **Production URL**: https://ssms.info
+- 🔐 **Authentication**: Google IAP (Identity-Aware Proxy)
+- ☁️ **Infrastructure**: Cloud Run + Load Balancer + SSL
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
